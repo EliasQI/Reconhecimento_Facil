@@ -1,0 +1,48 @@
+# Arquivos de cache e compilação do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual (virtualenv, venv)
+venv/
+env/
+.venv/
+ENV/
+
+# Configs do VSCode e IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.swp
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dependências e pacotes baixados
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Dados de treino e imagens (se forem grandes)
+dataset/
+output/
+*.jpg
+*.png
+*.jpeg
+
+# Arquivos de ambiente (chaves, configs secretas)
+.env
+*.json
+
+# Checkpoints ou pesos de modelo (caso use deep learning)
+*.h5
+*.ckpt
+*.pth
+*.pt
